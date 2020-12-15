@@ -4,5 +4,4 @@ describe('Payment With Dates', () => {
         const messageResponse = $('<b>');  
         await expect(messageResponse).toHaveTextContaining('ERROR! YOUR LEAVING DATE OR TIME IS BEFORE YOUR STARTING DATE OR TIME');
     });
-
 })
